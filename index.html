@@ -15,7 +15,7 @@ h1{font-size:clamp(60px,11vw,168px);line-height:.9;font-weight:770;letter-spacin
 .beliefs{margin:0;max-width:22em;font-size:clamp(24px,3vw,38px);line-height:1.2;font-weight:700;letter-spacing:-.03em}
 .label{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:700;margin:0 0 16px}
 .bel{padding-bottom:clamp(48px,8vw,100px)}
-.line{position:relative;margin-left:0;padding-left:clamp(28px,5vw,72px);border-left:4px solid var(--line);padding-bottom:0}
+.line{position:relative;width:min(100%,920px);margin:0 auto;padding-left:clamp(28px,5vw,72px);border-left:4px solid var(--line);padding-bottom:0}
 .entry{position:relative;padding-top:0;padding-bottom:clamp(88px,12vw,160px)}
 .entry:before{content:"";position:absolute;left:calc(-1 * clamp(28px,5vw,72px) - 12px);top:-4px;width:20px;height:20px;border-radius:50%;background:var(--ink)}
 .entry:last-child{padding-bottom:56px}
@@ -42,6 +42,11 @@ footer a:hover{border-color:currentColor}
   <h1>Ideas built in the open.</h1>
   <main class="line">
     <article class="entry">
+      <div class="meta"><span class="pill">Building</span><span class="since">Sep 18, 2026</span></div>
+      <h2>Stealth</h2>
+      <p class="pitch">A voice assistant that gets people out of debt.</p>
+    </article>
+    <article class="entry">
       <div class="meta"><span class="pill">Building</span><span class="since">Sep 11, 2026 (idea from 2015)</span></div>
       <h2>Howl</h2>
       <p class="pitch">A social network for sound in the AI era.</p>
@@ -52,11 +57,6 @@ footer a:hover{border-color:currentColor}
       <h2>Sam &amp; The Prompts</h2>
       <p class="pitch">A deadpan cartoon character giving terrible AI advice.</p>
       <a class="go" href="https://sam.danmagatti.com/">sam.danmagatti.com</a>
-    </article>
-    <article class="entry">
-      <div class="meta"><span class="pill">Building</span><span class="since">Sep 18, 2026</span></div>
-      <h2>Stealth</h2>
-      <p class="pitch">A voice assistant that gets people out of debt.</p>
     </article>
   </main>
   <footer><span>Learn by doing. Doubt is normal. Builders keep building. The kills stay on the wall.</span><span>built in the open by <a href="https://www.linkedin.com/in/danmagatti">@danmagatti</a></span></footer>
